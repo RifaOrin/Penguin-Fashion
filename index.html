@@ -9,11 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .font-roboto {
+        font-family: "Roboto", sans-serif;
+      }
+      .font-bebas-neue {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
   </head>
-  <body>
+  <body class="font-roboto">
     <header class="bg-[#FFFBF0]">
       <div class="max-w-[342px] lg:max-w-[1168px] my-0 mx-auto">
         <!-- Navbar -->
@@ -23,7 +31,9 @@
           <div class="w-[192.75px] lg:w-[291px]">
             <img src="icons/logo.png" alt="" />
           </div>
-          <ul class="hidden lg:flex lg:gap-[57px]">
+          <ul
+            class="hidden lg:flex lg:gap-[57px] font-medium text-base text-[#3C3C3C]/[1.5rem]"
+          >
             <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
             <li><a href="">About us</a></li>
